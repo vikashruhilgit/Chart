@@ -1,0 +1,18 @@
+.PageHeading {
+  color: #706666;
+}
+.Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  .Container {
+    border: 5px solid #b8a7a7;
+    padding: 20px;
+    flex: 1;
+    .Heading {
+      text-align: center;
+    }
+    .InnerContainer {
+    }
+  }
+}
