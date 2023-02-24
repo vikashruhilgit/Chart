@@ -23,7 +23,7 @@ export const MCCChartBrush: FC = () => {
       <VictoryChart
         width={550}
         height={300}
-        scale={{ x: "time" }}
+        scale="time"
         containerComponent={
           <VictoryZoomContainer
             responsive={false}
@@ -53,7 +53,7 @@ export const MCCChartBrush: FC = () => {
       <VictoryChart
         width={550}
         height={90}
-        scale={{ x: "time" }}
+        scale="time"
         padding={{ top: 0, left: 50, right: 50, bottom: 30 }}
         containerComponent={
           <VictoryBrushContainer

@@ -20,7 +20,6 @@ const getScatterData = () => {
 
 export const MCCChartZoom: FC = () => {
   const data = getScatterData();
-  console.log(data);
 
   return (
     <div style={{ width: "500px" }}>

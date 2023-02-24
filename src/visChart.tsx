@@ -61,12 +61,6 @@ export const VisChart: FC = () => {
             <LineChart />
           </div>
         </div>
-        <div className={classes.Container}>
-          <p className={classes.Heading}>Line Chart</p>
-          <div className={classes.InnerContainer}>
-            <LineChart />
-          </div>
-        </div>
       </section>
     </section>
   );
